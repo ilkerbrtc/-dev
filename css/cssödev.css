@@ -1,0 +1,131 @@
+
+
+
+.h1-prop{
+    font-size: 50px;
+    font-family: 'MedievalSharp', cursive;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(255, 214, 78);
+}
+
+.h2-prop{
+    color: brown;
+    font-size: 50px;
+    font-family: 'MedievalSharp', cursive;
+    text-decoration: none;
+    
+
+
+
+
+
+}
+
+.h3-prop{
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    font-family: 'MedievalSharp', cursive;
+    text-decoration: none;
+    text-decoration:none;
+  position:relative;
+
+
+}
+.h3-prop::before 
+{
+  content:'';
+  position:absolute;
+  left:0;
+  bottom:0;
+  width:0px;
+  height:3px;
+  background:#000;
+  opacity:0;
+  
+}
+
+.h3-prop:hover:before
+{
+  opacity:1;
+  width:100%;
+}
+
+.h4-prop{
+
+  margin-left: 10cm;
+  font-size:25px;
+  display: block;
+  margin-right: 750px;
+
+  
+  
+
+
+
+
+
+}
+
+.menu-prop{
+   font-size: 35px;
+
+} 
+
+.navbar{
+    text-align: center;
+    flex-direction: row;
+    justify-content:space-around;
+    display:flex;
+    font-size: 25px ;
+    text-decoration: none;
+    
+    
+}
+
+#customers {
+    border-collapse: collapse;
+    width:35cm;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+
+  #customers th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: justify;
+    background-color: #04AA6D;
+    
+  }
+ .largeimg{
+    width: 10px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+  }  
+
+ 
+
+ 
+  
+
+
+
+ 
+ 
+
+
+
+
+      
+
+
+
+
+
